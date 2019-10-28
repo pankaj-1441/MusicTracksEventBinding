@@ -1,0 +1,11 @@
+<p>child works!</p>
+
+
+<input #data>
+<button (click) = "childMethod(data.value)"> Button</button>
+
+<div *ngFor = "let a of tracks">
+    {{a.name}} || {{a.duration}} || {{a.playcount}}
+</div>
+
+IT's CHild HERE !
